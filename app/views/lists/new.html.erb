@@ -1,0 +1,9 @@
+<h1>New List</h1>
+<%= form_with(model: @list, local: true) do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+  <%= form.label :imageUrl %>
+  <%= form.text_field :imageUrl %>
+  <%= form.submit %>
+<% end %>
+

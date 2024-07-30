@@ -13,3 +13,166 @@
  *= require_tree .
  *= require_self
  */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#popcorn-icon:hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(18, 20, 24);
+    font-weight: 400;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav .lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    background-image: url('movie_theater.jpg');
+    /* Path to your background image */
+    background-size: cover;
+    /* Cover the entire div */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    color: white;
+}
+
+.movie-theater-img {
+    height: 500px;
+    width: 100%;
+}
+
+.index-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+
+}
+
+.index-header h1 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.new-list-btn {
+    background-color: rgb(92, 199, 92);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(245, 248, 251);
+}
+
+.index-lists {
+    display: flex;
+    gap: 30px;
+    margin: 0 100px;
+}
+
+.index-list-item {
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.show-main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    background-image: url('movie_theater.jpg');
+    /* Path to your background image */
+    background-size: cover;
+    /* Cover the entire div */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+}
+
+.show-main-img h1 {
+    color: white;
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.show-main-img p {
+    background-color: rgb(245, 172, 36);
+}
+
+.add-movie-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-movie-link {
+    background-color: rgb(95, 219, 95);
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 5px;
+    color: rgb(245, 250, 255);
+}
+
+.show-bookmarks {
+    display: flex;
+    gap: 80px;
+    margin: 0 50px;
+}
+
+.show-bookmark {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.hero {
+    font-size: 20px;
+}
+
+footer {
+    height: 100px;
+}
